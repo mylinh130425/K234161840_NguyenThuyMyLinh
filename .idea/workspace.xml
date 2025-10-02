@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0100289e-f7f0-4898-95a8-45bf8f675936" name="Changes" comment="upload excercise" />
+    <list default="true" id="0100289e-f7f0-4898-95a8-45bf8f675936" name="Changes" comment="upload excercise">
+      <change afterPath="$PROJECT_DIR$/tuan4/bai48.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan4/bai49/StudentManagement/MainWindow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan4/bai49/StudentManagement/MainWindow.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan4/bai49/StudentManagement/MainWindowEx.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan4/bai49/StudentManagement/MyApp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,18 +27,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "mylinh130425"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;mylinh130425&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/mylinh130425/K234161840_NguyenThuyMyLinh.git",
-    "accountId": "303c663a-da81-4c2d-b60c-b43df0c368ab"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/mylinh130425/K234161840_NguyenThuyMyLinh.git&quot;,
+    &quot;accountId&quot;: &quot;303c663a-da81-4c2d-b60c-b43df0c368ab&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -42,9 +49,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.MainWindow.executor": "Run",
+    "Python.MyApp.executor": "Run",
     "Python.SQLite_bonus.executor": "Run",
     "Python.SQLite_demo.executor": "Run",
     "Python.api.executor": "Run",
+    "Python.bai48.executor": "Run",
     "Python.csv.executor": "Run",
     "Python.demo_json.executor": "Run",
     "Python.demo_txt.executor": "Run",
@@ -70,7 +80,7 @@
     "Python.xml.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/HK7/ML/ML",
+    "last_opened_file_path": "D:/HK7/ML/K234161840_NguyenThuyMyLinh",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
@@ -81,11 +91,12 @@
       <recent name="D:\HK7\ML\K234161840_NguyenThuyMyLinh\tuan2\data_processing" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\HK7\ML\K234161840_NguyenThuyMyLinh\tuan4\bai49\StudentManagement" />
       <recent name="D:\HK7\ML\K234161840_NguyenThuyMyLinh" />
       <recent name="D:\HK7\ML\K234161840_NguyenThuyMyLinh\tuan2\translation" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.read_csv">
+  <component name="RunManager">
     <configuration name="read_csv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="K234161840_NguyenThuyMyLinh" />
       <option name="ENV_FILES" value="" />
@@ -191,7 +202,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758726808253</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="upload excercise">
+      <option name="closed" value="true" />
+      <created>1758727049159</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1758727049159</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
