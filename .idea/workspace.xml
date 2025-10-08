@@ -5,11 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0100289e-f7f0-4898-95a8-45bf8f675936" name="Changes" comment="upload excercise">
-      <change afterPath="$PROJECT_DIR$/tuan4/bai48.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuan4/bai49/StudentManagement/MainWindow.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuan4/bai49/StudentManagement/MainWindow.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuan4/bai49/StudentManagement/MainWindowEx.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuan4/bai49/StudentManagement/MyApp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan5/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan5/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan5/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan5/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan5/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan5/.idea/tuan5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan5/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan5/retail_project/connectors/connector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan5/retail_project/connectors/employee_connector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan5/retail_project/images/ic_exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan5/retail_project/images/ic_login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan5/retail_project/images/ic_screen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan5/retail_project/models/customer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan5/retail_project/models/employee.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan5/retail_project/tests/test_connector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan5/retail_project/tests/test_connector_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan5/retail_project/tests/test_employee_connector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan5/retail_project/tests/test_login_mainwindow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan5/retail_project/uis/LoginMainWindow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan5/retail_project/uis/LoginMainWindow.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan5/retail_project/uis/LoginMainWindow_ex.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +65,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests in test_connector.py.executor": "Run",
+    "Python tests.Python tests in test_connector_model.py.executor": "Run",
     "Python.MainWindow.executor": "Run",
     "Python.MyApp.executor": "Run",
     "Python.SQLite_bonus.executor": "Run",
@@ -74,13 +92,15 @@
     "Python.read_txt.executor": "Run",
     "Python.read_xml'.executor": "Run",
     "Python.read_xml.executor": "Run",
+    "Python.test.executor": "Run",
     "Python.txt (1).executor": "Run",
     "Python.txt.executor": "Run",
     "Python.xml'.executor": "Run",
     "Python.xml.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/HK7/ML/K234161840_NguyenThuyMyLinh",
+    "last_opened_file_path": "D:/HK7/ML/K234161840_NguyenThuyMyLinh/tuan5",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
@@ -163,8 +183,24 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in test_connector.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="K234161840_NguyenThuyMyLinh" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tuan5/retail_project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tuan5/retail_project/test_connector.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests in test_connector.py" />
         <item itemvalue="Python.read_csv" />
         <item itemvalue="Python.read_txt" />
       </list>
@@ -210,7 +246,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758727049159</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="upload excercise">
+      <option name="closed" value="true" />
+      <created>1759408223429</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1759408223429</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
