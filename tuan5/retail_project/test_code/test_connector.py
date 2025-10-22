@@ -44,4 +44,4 @@ def login_employee(email,pwd):
     else:
         print("Login failed!")
     cursor.close()
-login_employee("putin@gmai.com","123")
+login_employee("obama@gmail.com","123")

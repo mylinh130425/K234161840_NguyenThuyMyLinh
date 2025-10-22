@@ -3,7 +3,7 @@ import mysql.connector
 import traceback
 import pandas as pd
 class Connector:
-    def __init__(self,server="localhost", port="3306", database="k23416_retail", username="root", password="@Bb13042005"):
+    def __init__(self,server="localhost", port=3306, database="k23416_retail", username="root", password="@Bb13042005"):
         self.server=server
         self.port=port
         self.database=database
@@ -38,14 +38,38 @@ class Connector:
         except:
             traceback.print_exc()
         return None
-
-    def fetchone(self, sql, val):
+    def getTablesName(self):
+        cursor = self.conn.cursor()
+        cursor.execute("Show tables;")
+        results=cursor.fetchall()
+        tablesName=[]
+        for item in results:
+            tablesName.append([tableName for tableName in item][0])
+        return tablesName
+    def fetchone(self,sql,val):
         try:
             cursor = self.conn.cursor()
-            cursor.execute(sql, val)
+            cursor.execute(sql,val)
             dataset = cursor.fetchone()
             cursor.close()
             return dataset
         except:
             traceback.print_exc()
         return None
+    def fetchall(self,sql,val):
+        try:
+            cursor = self.conn.cursor()
+            cursor.execute(sql,val)
+            dataset = cursor.fetchall()
+            cursor.close()
+            return dataset
+        except:
+            traceback.print_exc()
+        return None
+    def insert_one(self,sql,val):
+        cursor = self.conn.cursor()
+        cursor.execute(sql, val)
+        self.conn.commit()
+        result=cursor.rowcount
+        cursor.close()
+        return result

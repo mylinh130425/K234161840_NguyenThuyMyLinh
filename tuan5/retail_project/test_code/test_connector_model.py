@@ -2,7 +2,7 @@ import traceback
 
 import mysql.connector
 
-from retail_project.models.customer import Customer
+from tuan5.retail_project.models.customer import Customer
 
 server="localhost"
 port=3306
@@ -33,7 +33,7 @@ def login_customer(email,pwd):
         #cust.ID,cust.Name,cust.Phone,cust.Email,cust.Password,cust.IsDeleted=dataset
     cursor.close()
     return cust
-cust= login_customer("daodao@gmail.com","123")
+cust= login_customer("hcđ@gmail.com","123")
 if cust==None:
     print("Login failed")
 else:

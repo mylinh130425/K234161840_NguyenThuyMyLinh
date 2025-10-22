@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>409</width>
-    <height>398</height>
+    <width>401</width>
+    <height>293</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,8 +17,8 @@
    <widget class="QGroupBox" name="groupBox">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>70</y>
+      <x>160</x>
+      <y>40</y>
       <width>211</width>
       <height>191</height>
      </rect>
@@ -39,7 +39,7 @@
       <string>Email:</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit">
+    <widget class="QLineEdit" name="lineEditEmail">
      <property name="geometry">
       <rect>
        <x>20</x>
@@ -47,6 +47,9 @@
        <width>171</width>
        <height>20</height>
       </rect>
+     </property>
+     <property name="text">
+      <string>obama@gmail.com</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_2">
@@ -62,7 +65,7 @@
       <string>Password:</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_2">
+    <widget class="QLineEdit" name="lineEdit_Password">
      <property name="geometry">
       <rect>
        <x>20</x>
@@ -70,6 +73,9 @@
        <width>171</width>
        <height>20</height>
       </rect>
+     </property>
+     <property name="text">
+      <string>123</string>
      </property>
      <property name="echoMode">
       <enum>QLineEdit::Password</enum>
@@ -88,7 +94,7 @@
       <string>Save login information</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton">
+    <widget class="QPushButton" name="pushButton_Login">
      <property name="geometry">
       <rect>
        <x>20</x>
@@ -105,7 +111,7 @@
        <normaloff>../images/ic_login.png</normaloff>../images/ic_login.png</iconset>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_2">
+    <widget class="QPushButton" name="pushButton_Exit">
      <property name="geometry">
       <rect>
        <x>120</x>
@@ -123,13 +129,29 @@
      </property>
     </widget>
    </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>70</y>
+      <width>121</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../images/ic_login_screen.png</pixmap>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>409</width>
+     <width>401</width>
      <height>22</height>
     </rect>
    </property>
@@ -137,5 +159,22 @@
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>pushButton_Exit</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>317</x>
+     <y>223</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>200</x>
+     <y>146</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>
