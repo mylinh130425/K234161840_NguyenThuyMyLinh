@@ -56,7 +56,7 @@ class Connector:
         except:
             traceback.print_exc()
         return None
-    def fetchall(self,sql,val):
+    def fetchall(self,sql,val): #một mình nó có thể cân hết 
         try:
             cursor = self.conn.cursor()
             cursor.execute(sql,val)
