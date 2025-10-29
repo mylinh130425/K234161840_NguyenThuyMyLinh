@@ -173,3 +173,5 @@ def visualize3DKMeans(df, columns, hover_data, cluster):
                         )
     fig.update_layout(margin=dict(l=0, r=0, b=0, t=0))
     fig.show()
+hover_data=df2.columns
+visualize3DKMeans(df2,columns,hover_data,cluster)
